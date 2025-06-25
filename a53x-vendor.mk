@@ -73,9 +73,12 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.data-V1-ndk \
     vendor.samsung.hardware.radio.messaging-V1-ndk \
     vendor.samsung.hardware.radio.sim-V1-ndk \
+    vendor.samsung.hardware.security.vaultkeeper@2.0 \
+    vaultkeeper_manifest.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_33.xml \
     vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     cass \
     rild \
-    vaultkeeperd
+    vaultkeeperd \
+    vendor.samsung.hardware.security.vaultkeeper@2.0-service
