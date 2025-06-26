@@ -6,16 +6,66 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a53x
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a53x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a53x/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
-    vendor/samsung/a53x/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
-    vendor/samsung/a53x/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
-    vendor/samsung/a53x/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
-    vendor/samsung/a53x/proprietary/vendor/etc/plmn_delta_chn.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_chn.bin \
-    vendor/samsung/a53x/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
-    vendor/samsung/a53x/proprietary/vendor/etc/plmn_se13_prebuilt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13_prebuilt.bin \
+    vendor/samsung/a53x/proprietary/recovery/root/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a53x.bin \
     vendor/samsung/a53x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
+    vendor/samsung/a53x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/APSV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APSV_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.1.6_01_26_QVGA.nnc \
+    vendor/samsung/a53x/proprietary/vendor/firmware/OD_V2.3.7_02_05_VGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.3.7_02_05_VGA.nnc \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SetMultiCalInfo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SetMultiCalInfo.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/a2dpcom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a2dpcom.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
+    vendor/samsung/a53x/proprietary/vendor/firmware/avsyncmix.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/avsyncmix.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/bidirmic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bidirmic.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/default_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/default_configuration.flm.cfg.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/dolby.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dolby.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/dual_cal_wide_sub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_sub.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_a53x.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/is_fw_mcu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_fw_mcu.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/listenbackeffect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/listenbackeffect.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_GC5035.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_GC5035.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_HI1336.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_HI1336.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_IMX258.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_IMX258.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_IMX616.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_IMX616.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_IMX682.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_IMX682.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_S5KGD2.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_S5KGD2.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_S5KGW1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_S5KGW1.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/nfc/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn4v_firmware.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/os.checked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/os.checked.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/sb_music.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_music.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/sectiongraph_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sectiongraph_tplg.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/sectiongraph_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/sectiongraph_tplg.conf \
+    vendor/samsung/a53x/proprietary/vendor/firmware/secure_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/secure_configuration.flm.cfg.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_gc5035d.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035d.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_gc5035m.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035m.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_gd2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gd2.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_gw1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gw1.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hi1336.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx258.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx616.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/setfile_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx682.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/swcnr_IMX682.json:$(TARGET_COPY_OUT_VENDOR)/firmware/swcnr_IMX682.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/swcnr_S5KGW1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/swcnr_S5KGW1.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/tfa9878.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9878.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/samsung/a53x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/volumemonitor.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/volumemonitor.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
     vendor/samsung/a53x/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a53x/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a53x/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
@@ -51,32 +101,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476 \
     vendor/samsung/a53x/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
     vendor/samsung/a53x/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
-    vendor/samsung/a53x/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
+    vendor/samsung/a53x/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
+    vendor/samsung/a53x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a53x.bin
 
 PRODUCT_PACKAGES += \
-    libsemnativecarrierfeature \
     libswdap \
-    libSemDataProps \
-    libSemTelephonyProps \
     libexynoscamera3 \
-    libfloatingfeature \
-    libprotobuf-cpp-full-21.7 \
-    libril_sem \
-    libsec-ril \
     libstork_shared \
-    libvkmanager_vendor \
     libvkservice \
-    vendor.samsung.hardware.radio-V1-ndk \
-    vendor.samsung.hardware.radio.bridge-V1-ndk \
-    vendor.samsung.hardware.radio.channel-V1-ndk \
-    vendor.samsung.hardware.radio.data-V1-ndk \
-    vendor.samsung.hardware.radio.messaging-V1-ndk \
-    vendor.samsung.hardware.radio.sim-V1-ndk \
     vendor.samsung.hardware.security.vaultkeeper@2.0 \
-    vendor.samsung.hardware.radio.exclude.slsi.xml \
-    vendor.samsung.hardware.radio_manifest_2_33.xml \
-    vendor.samsung.hardware.sehradio_manifest_2_33.xml \
-    cass \
-    rild \
+    vaultkeeper_manifest.xml \
     vaultkeeperd \
     vendor.samsung.hardware.security.vaultkeeper@2.0-service
