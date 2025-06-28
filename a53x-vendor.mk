@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/default_configuration.flm.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/default_configuration.flm.cfg.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/dolby.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dolby.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/dual_cal_wide_sub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_sub.bin \
-    vendor/samsung/a53x/proprietary/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_a53x.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/is_fw_mcu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_fw_mcu.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_lib.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_rta.bin \
@@ -115,10 +114,18 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libswdap \
+    camera.s5e8825 \
+    libMERTA \
     libexynoscamera3 \
+    libexynoscamera_merta_plugin \
+    libexynoscamera_swlme_plugin \
+    libexynoscamera_vpl_plugin \
+    liblmecpu \
+    libsec2lsi_conversion \
     libskeymint10device \
     libskeymint_cli \
     libstork_shared \
+    libswlme \
     libvkservice \
     vendor.samsung.hardware.security.vaultkeeper@2.0 \
     vaultkeeper_manifest.xml \
