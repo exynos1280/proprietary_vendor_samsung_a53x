@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbauthserver \
     libbauthtzcommon \
-    libswdap \
     camera.s5e8825 \
     libMERTA \
     libexynoscamera3 \
