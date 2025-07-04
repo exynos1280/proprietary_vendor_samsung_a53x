@@ -113,6 +113,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a53x.bin
 
 PRODUCT_PACKAGES += \
+    libbauthserver \
+    libbauthtzcommon \
     libswdap \
     camera.s5e8825 \
     libMERTA \
