@@ -115,6 +115,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor_ramdisk/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/gt9895_a53x.bin
 
 PRODUCT_PACKAGES += \
+    lib_SoundAlive_3DPosition_ver202 \
+    lib_SoundAlive_AlbumArt_ver105 \
+    lib_SoundAlive_play_plus_ver400 \
+    lib_SoundBooster_ver1100 \
+    libaudiosaplus_sec \
+    libmyspace \
+    libsamsungSoundbooster_plus \
     camera.s5e8825 \
     libMERTA \
     libbauthserver \
