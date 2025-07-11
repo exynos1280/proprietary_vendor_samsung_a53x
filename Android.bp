@@ -95,6 +95,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/lib_SoundAlive_play_plus_ver400.so",
             ],
             shared_libs: [
+                "liblog-samsung",
                 "libc",
                 "libm",
                 "libdl",
@@ -105,6 +106,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver400.so",
             ],
             shared_libs: [
+                "liblog-samsung",
                 "libc",
                 "libm",
                 "libdl",
