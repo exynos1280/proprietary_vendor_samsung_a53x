@@ -24,6 +24,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/APSV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APSV_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.1.6_01_26_QVGA.nnc \
     vendor/samsung/a53x/proprietary/vendor/firmware/OD_V2.3.7_02_05_VGA.nnc:$(TARGET_COPY_OUT_VENDOR)/firmware/OD_V2.3.7_02_05_VGA.nnc \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/APDV_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/AP_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/NPU.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/calliope_sram.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/mfc_fw.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/os.checked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/os.checked.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/SM-A5360/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A5360/vts.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SM-A536B/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A536B/APDV_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SM-A536B/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A536B/AP_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SM-A536B/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SM-A536B/NPU.bin \
@@ -83,6 +90,46 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/volumemonitor.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/volumemonitor.bin \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-000000010081 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-000000020081 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-000000534b4d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-000048444350:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-000048444350 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-0000534b504d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-0000534b504d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-0050524f4341:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-0050524f4341 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-0053545354ab \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-00575644524d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-00575644524d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-303049464141:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-303049464141 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-42494f535542:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-42494f535542 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-46494e474502:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-46494e474502 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4662436b6d52:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4662436b6d52 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-474154454b45:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-474154454b45 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4b45594d5354:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4b45594d5354 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4d5053545549:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4d5053545549 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4d704e434954:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4d704e434954 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4d70536b566e:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4d70536b566e \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4d7073534d43:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4d7073534d43 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-4d7073617574:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-4d7073617574 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-505256544545:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-505256544545 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-5345435f4652:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-5345435f4652 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-53454d655345:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-53454d655345 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-53465453494d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-53465453494d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-54412d48444d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-54412d48444d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-544947455246:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-544947455246 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-54496473706c:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-54496473706c \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-544974684c6c:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-544974684c6c \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-564c544b5052:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-564c544b5052 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-656e676d6f64:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-656e676d6f64 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-657365636f6d \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-6b6e78677564:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-6b6e78677564 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-6d706f667376:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-6d706f667376 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/00000000-0000-0000-0000-6d73745f5441:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/00000000-0000-0000-0000-6d73745f5441 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-42494f415448:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/driver/00000000-0000-0000-0000-42494f415448 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/driver/00000000-0000-0000-0000-494363447256 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-4d53546d7374:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/driver/00000000-0000-0000-0000-4d53546d7374 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/driver/00000000-0000-0000-0000-53626f786476 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/driver/00000000-0000-0000-0000-564c544b4456 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/ffffffff-0000-0000-0000-000000000030 \
+    vendor/samsung/a53x/proprietary/vendor/tee/SM-A5360/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A5360/tui/resolution_common/ID00000100 \
     vendor/samsung/a53x/proprietary/vendor/tee/SM-A536B/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A536B/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a53x/proprietary/vendor/tee/SM-A536B/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A536B/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a53x/proprietary/vendor/tee/SM-A536B/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/SM-A536B/00000000-0000-0000-0000-000000534b4d \
