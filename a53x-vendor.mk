@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/etc/wifi/slsi_reg_database.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/slsi_reg_database.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDV_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NPU.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SC-53C/APDV_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SC-53C/APDV_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SC-53C/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SC-53C/AP_AUDIO_SLSI.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/SC-53C/NPU.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SC-53C/NPU.bin \
@@ -61,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
     vendor/samsung/a53x/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/dual_cal_wide_sub.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dual_cal_wide_sub.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9895_a53x.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/is_fw_mcu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/is_fw_mcu.bin \
@@ -73,7 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_IMX682.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_IMX682.json \
     vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_S5KGD2.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_S5KGD2.json \
     vendor/samsung/a53x/proprietary/vendor/firmware/lmecpu_S5KGW1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/lmecpu_S5KGW1.json \
+    vendor/samsung/a53x/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/nfc/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn4v_firmware.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/os.checked.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/os.checked.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/sb_music.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_music.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
@@ -93,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/samsung/a53x/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/a53x/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
+    vendor/samsung/a53x/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
     vendor/samsung/a53x/proprietary/vendor/tee/SC-53C/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/SC-53C/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a53x/proprietary/vendor/tee/SC-53C/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/SC-53C/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a53x/proprietary/vendor/tee/SC-53C/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/SC-53C/00000000-0000-0000-0000-000000534b4d \
