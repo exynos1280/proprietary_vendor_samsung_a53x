@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a53x/proprietary/recovery/root/vendor/firmware/gt9895_a53x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a53x.bin \
     vendor/samsung/a53x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/a53x/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/a53x/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
     vendor/samsung/a53x/proprietary/vendor/etc/wifi/mx140_common.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_common.hcf \
     vendor/samsung/a53x/proprietary/vendor/etc/wifi/mx140_t_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t_wlan.hcf \
@@ -295,4 +296,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera_vpl_plugin \
     liblmecpu \
     libsec2lsi_conversion \
-    libswlme
+    libswlme \
+    nfc_nci_nxpsn \
+    vendor.samsung.hardware.nfc@2.0 \
+    nxp.android.hardware.nfc@1.2-service
